@@ -1,0 +1,25 @@
+---
+title: "Untitled"
+author: "Nicole Kadosh"
+date: "8/30/2018"
+output: html_document
+---
+
+```{r}
+X <- 0:10
+print(X)
+TestScore <- seq(0, 100, 2)
+print(TestScore)
+pH <- seq(0, 14, 0.1)
+print(pH)
+Game <- c("Rock", "Paper", "Sissors", "Lizard", "Spock")
+print(Game)
+Clock <- seq(60, 0, -1)
+print(Clock)
+Song <- c("I get knocked down", "But I get up again", "You're never gonna keep me down")
+rep(Song, times = 2)
+types <- c("A", "B", "AB", "O")
+freqs <- c(40, 11, 4, 45)
+rep(types, times = freqs)
+```
+
